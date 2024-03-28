@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "pappins";
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(206 79% 38% / 1);
+}
+.navbar h1{
+    margin-top: 30px;
+    position: relative;
+    left: 44px;
+    font-size: xx-large;
+}
+.navbar h1 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar{
+    height: 100px;
+    color: antiquewhite;
+    display: flex;
+    text-align: center;
+}
+.intro  ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 660px;
+    margin-top: 40px;
+}
+.intro a{
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+}
+.contactme{
+    position: relative;
+    bottom: 450px;
+}
+.contactme h1{
+    color: aliceblue;
+    font-size: 75px;
+    margin: 120px 0px 0px 75px;
+}
+.contactme h2{
+    color: aliceblue;
+    margin: 0px 720px 0px 75px;
+}
+.contactme p{
+    color: aliceblue;
+    font-size:15px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin: 43px 720px 10px 75px;
+}
+.para{
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height:25px;
+}
+.para a{
+    color: aliceblue;
+    margin: 75px;
+    text-decoration: none;
+}
+footer{
+    background-color:black;
+    height: 200px;
+}
+.ending1 a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+    font-size:xx-large;
+    position: relative;
+    top: 25px;
+}
+.ending2 ul a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    position: relative;
+    top: 40px;
+}
+.ending1{
+    display: flexbox;
+    text-align: center;
+}
+.ending2{
+    display: flexbox;
+    text-align: center;
+}
+.ending2 p{
+    color:aliceblue;
+    position: relative;
+    top:30px;
+    text-align: start;
+}
+.ending1 h3{
+    color: aliceblue;
+}
+.formcont form{
+    color: aliceblue;
+    display: flexbox;
+    text-align: center;
+}
+.formcont form input{
+    height: 42px;
+    width: 265px;
+    margin:0px 0px 0px 0px;
+}
+.formcont form label{
+    /* margin: 0px 200px 0px 0px; */
+}
+.formcont form button{
+    padding: 15px 25px;
+    border-radius: 10px;
+}
